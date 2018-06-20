@@ -1,0 +1,42 @@
+footer{
+	max-width: 100%;
+	width: 100%;
+	margin: 0 auto;
+  background: darken($primary-color, 40);
+  z-index: 999;
+  position: relative;
+  min-height: 90px;
+  margin-top: rem-calc(50);
+  padding-top: rem-calc(30);
+  padding-bottom: rem-calc(40);
+  color: #fff;
+  .menu > li{
+    display: block;
+  }
+  .menu > li > a{
+    display: block;
+    padding: 0.4rem 0;
+  }
+  .menu .active > a{
+    background: none;
+  }
+  .social-icons{
+    max-width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    li{
+      display: inline-block;
+      position: relative;
+      padding: 0 0.1rem;
+      font-size: 25px;
+      color: $primary-color;
+    }
+  }
+  ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+
+ }
+}
+

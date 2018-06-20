@@ -1,0 +1,30 @@
+#page {
+  @include grid-row();
+  margin-top: 14rem;
+  .main-content {
+    @include breakpoint(small) {
+      @include grid-column(12);
+    }
+    @include breakpoint(medium) {
+      @include grid-column(8);
+    }
+  }
+}
+
+
+#page-full-width {
+  @include grid-row();
+  margin-top: 10rem;
+
+  .main-content {
+    @include breakpoint(small) {
+      @include grid-column(12);
+    }
+
+  }
+
+}
+
+body.customer-area-active .cuar-css-wrapper .navbar-toggle .icon-bar {
+  background-color: $primary-color;
+}

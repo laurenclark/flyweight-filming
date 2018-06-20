@@ -1,0 +1,73 @@
+#wclp-option-form table{
+    width:100%;
+}
+#wclp-option-form table .fieldset th{
+    border-bottom: 1px solid rgb(218, 218, 218);
+    padding: 12px;
+    margin-bottom: 47px;
+    background-color: rgb(138, 138, 138);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+#wclp-option-form table tr{
+    background-color: rgb(230, 230, 230);
+}
+#wclp-option-form table tr:hover{
+    background-color: rgb(227, 245, 225);
+}
+#wclp-option-form table tr th,
+#wclp-option-form table tr td{
+    padding:10px;
+}
+#wclp-footer{
+    text-align: right;
+}
+.wclp_uploader .image_uploaded, 
+.wclp_uploader .image_uploaded img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+.wclp_uploader .image_uploaded .hover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+} 
+.wclp_uploader .image_uploaded:hover .hover{
+    display: block;
+}
+.wclp_uploader .image_uploaded .hover a{
+    background-image: url(../images/sprite.png);
+    background-repeat: no-repeat;    
+    border-radius: 11px 11px 11px 11px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    height: 22px;
+    width: 22px;
+    display: block;
+    color: transparent;
+    font-size: 0;
+}
+.wclp_uploader .image_uploaded .hover ul{
+    margin: 0;
+}
+.wclp_uploader .image_uploaded .hover a.wclp-button-delete{
+    background-position: -64px -214px;
+}
+.wclp_uploader .image_uploaded .hover a.wclp-button-edit{
+    background-position: -14px -214px;
+}
+.wclp_uploader .icon{
+	width:100%;
+}
+.no_image_uploaded label{ 
+    clear: both;
+    display: block;
+    font-size: 12px;
+}
+.no_image_uploaded .upload_image_button{
+    margin-top: 5px;
+    text-align: center;
+    width: 120px;
+}

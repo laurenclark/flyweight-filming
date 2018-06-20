@@ -1,0 +1,31 @@
+@include breakpoint(small) {
+	#featured-hero {
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		margin: 0 0 rem-calc(32);
+		position: relative;
+		height: rem-calc(200);
+   margin-bottom: -110px;
+   &.parallax-window{
+    min-height: 150px; 
+  }
+}
+
+.no-featured-image-set {
+ height: rem-calc(16) !important;
+}
+}
+
+@include breakpoint(medium) {
+	#featured-hero {
+    margin-top: -90px;
+    height: rem-calc(400);
+
+    &.parallax-window{
+     min-height: 400px; 
+   }
+ }
+}
+
+

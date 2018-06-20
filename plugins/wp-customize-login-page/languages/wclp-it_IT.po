@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Customize Login Page\n"
+"POT-Creation-Date: 2016-05-25 15:36+0200\n"
+"PO-Revision-Date: 2016-05-25 15:36+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wp-customize-login-page.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/settings.php:25
+msgid "WP Customize Login Page Settings"
+msgstr ""
+
+#: admin/settings.php:32
+msgid "Status"
+msgstr "Stato"
+
+#: admin/settings.php:34
+msgid "Enabled?"
+msgstr "Attiva?"
+
+#: admin/settings.php:41
+msgid "HTML"
+msgstr ""
+
+#: admin/settings.php:43
+msgid "Body"
+msgstr ""
+
+#: admin/settings.php:50
+msgid "Body Background Image"
+msgstr "Immagine di sfondo Body"
+
+#: admin/settings.php:65 admin/settings.php:107 admin/settings.php:169
+msgid "No image"
+msgstr "Nessun immagine"
+
+#: admin/settings.php:66 admin/settings.php:108 admin/settings.php:170
+msgid "Upload"
+msgstr "Carica"
+
+#: admin/settings.php:80 admin/settings.php:122 admin/settings.php:184
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: admin/settings.php:80 admin/settings.php:122 admin/settings.php:184
+msgid "Edit"
+msgstr "Modifica"
+
+#: admin/settings.php:89
+msgid "Logo"
+msgstr ""
+
+#: admin/settings.php:92
+msgid "Logo Image"
+msgstr "Immagine Logo"
+
+#: admin/settings.php:131
+msgid "Logo URL"
+msgstr "URL Logo"
+
+#: admin/settings.php:134
+msgid "Enter the link of the logo (default bloginfo url)"
+msgstr "Inserisci il link del logo (bloginfo url predefinito)"
+
+#: admin/settings.php:138
+msgid "Logo Title"
+msgstr "Title Logo"
+
+#: admin/settings.php:141
+msgid "Enter the title of the logo (default bloginfo description)"
+msgstr "Inserisci il title del logo (bloginfo description predefinito)"
+
+#: admin/settings.php:145
+msgid "Form"
+msgstr "Modulo"
+
+#: admin/settings.php:147
+msgid "Background color"
+msgstr "Colore di Sfondo"
+
+#: admin/settings.php:154
+msgid "Background Image"
+msgstr "Immagine di sfondo"
+
+#: admin/settings.php:193
+msgid "Shadow"
+msgstr "Obra"
+
+#: admin/settings.php:199
+msgid "Label"
+msgstr "Etichette"
+
+#: admin/settings.php:205
+msgid "Input"
+msgstr ""
+
+#: admin/settings.php:211
+msgid "Button Bg"
+msgstr "Sfondo Pulsante"
+
+#: admin/settings.php:217
+msgid "Button Hover Bg"
+msgstr "Sfondo Pulsante all’hover"
+
+#: admin/settings.php:223
+msgid "Button Text"
+msgstr "Testo Pulsante"
+
+#: admin/settings.php:229
+msgid "Button Text Hover"
+msgstr "Testo Pulsante all’hover"
+
+#: admin/settings.php:235
+msgid "Button Border"
+msgstr "Bordo Pulsante"
+
+#: admin/settings.php:241
+msgid "Button Border Hover"
+msgstr "Bordo Pulsante al’hover"
+
+#: admin/settings.php:247
+msgid "Button Shadow"
+msgstr "Ombra Pulsante"
+
+#: admin/settings.php:253
+msgid "Button Shadow Hover"
+msgstr "Ombra Pulsante all’hover"
+
+#: admin/settings.php:259
+msgid "Button Text Shadow"
+msgstr "Ombra Testo Pulsante"
+
+#: admin/settings.php:265
+msgid "Button Text Shadow Hover"
+msgstr "Ombra Testo Pulsante all’hover"
+
+#: admin/settings.php:271
+msgid "Link"
+msgstr ""
+
+#: admin/settings.php:277
+msgid "Link Hover"
+msgstr ""
+
+#: admin/settings.php:283
+msgid "Notification"
+msgstr "Notifiche"
+
+#: admin/settings.php:285
+msgid "Login Error"
+msgstr ""
+
+#: admin/settings.php:291
+msgid "Login Message"
+msgstr ""
+
+#: admin/settings.php:301
+msgid "Save Changes"
+msgstr "Salva Modifiche"
+
+#: wp-customize-login-page.php:192
+msgid "Settings"
+msgstr "Impostazioni"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Customize Login Page"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://carlolapera.com/plugins/wp-customize-login-page/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Customize your Login page."
+msgstr "Personalizza la tua pagina di Login"
+
+#. Author of the plugin/theme
+msgid "Carlo La Pera"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://carlolapera.com/"
+msgstr ""

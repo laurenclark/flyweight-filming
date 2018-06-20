@@ -1,0 +1,191 @@
+.text-title {
+  text-transform: uppercase;
+}
+
+.secondary.hollow.button:hover,
+.secondary.hollow.button:focus,
+.secondary.hollow.button:active {
+  color: $primary-color;
+  background: $secondary-color;
+  border-color: $secondary-color;
+}
+
+.attachment-post-thumbnail {
+  width: 100%;
+  height: auto;
+}
+
+.custom-blog {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  min-height: 600px;
+}
+
+.custom-blog img {
+  max-height: 200px;
+}
+
+.custom-blog:hover {
+  border: 1px solid #a0a0a0;
+  box-shadow: 2px 2px 2px #e6e6e6;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.blog-content {
+  padding: rem-calc(10);
+}
+
+
+/* Basic styles for post navigation. Nicolas Gallagher's "Micro clearfix" https://css-tricks.com/snippets/css/clear-fix/ */
+
+.post-navigation:before,
+.post-navigation:after {
+  content: "";
+  display: table;
+}
+
+.post-navigation:after {
+  clear: both;
+}
+
+
+/* Text meant only for screen readers. Addresses part of theme-check issue #840. https://github.com/Automattic/_s/blob/master/style.css */
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+    /* Above WP toolbar. */
+  }
+
+  .nav-previous {
+    float: left;
+  }
+
+  .nav-next {
+    float: right;
+  }
+
+  .sidebar ul {
+    list-style: none;
+    margin-left: 0;
+  }
+
+  .entry-meta{
+    color: #666;
+    margin-bottom: 5px;
+  }
+
+  figcaption{
+    font-family: 'Montserrat';
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: transparentize($primary-color, 0.2);
+    width: 90%;
+    padding: 10px;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    right: 0;
+  }
+
+
+  figure{
+    margin: 0;
+    margin-bottom: rem-calc(20);
+  }
+
+  .attachment-thumbnail:hover{
+    box-shadow: 0px 0px 2px grey;
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
+  }
+
+  .gallery-item{
+    position: relative;
+    @include breakpoint(small){
+      @include grid-column(12);
+      img {
+        width: 100%;
+      }
+    }
+    @include breakpoint(medium){
+      @include grid-column(6);
+    }
+    @include breakpoint(large){
+      @include grid-column(3);
+    }
+  }
+
+  .gallery-item:last-child:not(:first-child) {
+    float: left !important;
+  }
+
+
+  .spacer{
+    @include breakpoint(large){
+      margin-top: 14rem;
+    }
+  }
+
+  #nav_menu-2{
+    font-size: 1.2rem;
+    .menu .active > a {
+      color: $primary-color;
+      background: none;
+      font-weight: bold;
+    }
+    h6{
+      font-size: 28px;
+    }
+  }
+  #menu-services-sidebar-nav {
+    margin-bottom: 20px;
+    li{
+      display: block!important;
+      margin-left: 0;
+      a{
+        padding-left: 0;
+        &:hover{
+          font-size: 1.3rem;
+          transition: all ease-in-out 0.2s;
+          zoom: 1;
+          padding-bottom: 10px;
+        }
+      }
+      li.active a {
+        color: $primary-color;
+        background: none;
+      }
+    }
+  }

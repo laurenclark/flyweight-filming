@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro:300,400,400italic,600,300italic');      
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat, Impact, Arial, Sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: inherit;
+  text-rendering: optimizeLegibility;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+body {
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: inherit;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  text-rendering: optimizeLegibility;
+}
